@@ -1,6 +1,6 @@
 # Themepack format options
 set -goq @themepack-status-left-area-left-format "#S"
-set -goq @themepack-status-left-area-middle-format ""
+set -goq @themepack-status-left-area-middle-format "#H"
 set -goq @themepack-status-left-area-right-format "#I:#P"
 set -goq @themepack-status-right-area-left-format 'Battery: #{battery_percentage}'
 set -goq @themepack-status-right-area-middle-format "CPU:  #{cpu_percentage}"
